@@ -11,7 +11,6 @@ function nextButton() {
     if (divSet === divIds.length - 1) {
         document.getElementById("nextButton").style.display = 'none';
         document.getElementById("submitButton").style.display = 'block';
-        document.getElementById("backButton").style.display = 'block';
         x.style.display = 'block';
     } else if (divSet < divIds.length) {
         x.style.display = 'block';
