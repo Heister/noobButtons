@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<Head>
+ <script src ="EJS.js"></script>
+    <style>
+        #nB {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+    </style>
+</Head>
+<Body>
+
+    <form id = "form">
+        <div id = "Q1">Question 1</div>
+
+        <div id = "Q2" style = "display:none">Question 2</div>
+
+        <div id = "Q3" style = "display:none">Question 3:  Some format and answers</div>
+        
+        
+        <div id = "nextButton">
+            <button onClick = "nextButton();">Next</button>
+        </div>
+        <div id = "backButton" style = "display:none">
+            <button onClick = "backButton();">Back</button>   
+        </div>
+        <div id = "submitButton" style = "display:none">
+            <button>Submit</button>
+        </div>
+    </form>
+
+</Body>
